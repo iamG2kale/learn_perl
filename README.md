@@ -1,6 +1,6 @@
 # learn_perl
 
-istall --
+install --
 you need to install perl for windows or unix
 set env path for perl/bin folder
 
