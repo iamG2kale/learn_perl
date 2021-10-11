@@ -14,6 +14,7 @@ print_sub("img2.xyz", "500");
 ##subroutine to append domain
 
 sub addDomain{
+    ##@_ special array symbol
     my @myArr = @_;
     foreach (@myArr){
         if ($_ =~ /com/){
