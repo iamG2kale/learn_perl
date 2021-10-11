@@ -30,3 +30,18 @@ sub addDomain{
 
 @myArr = addDomain(@myArr);
 print(@myArr,"\n");
+
+##printing array nd hashes with routine
+
+my %h2 = (Perl => 5, Python => 10, Java => 8, C => 9);
+my @skills = ("Perl","Python","Java","C");
+
+sub print_stuff{
+    (@myArr, %h2, @skills) = @_;
+    print("============Printing=========== \n");
+    print(@myArr , "\n");
+    print(%h2,"\n");
+    print(@skills, "\n");
+}
+
+print_stuff(@myArr,%h2,@skills);
